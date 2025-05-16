@@ -3,8 +3,8 @@ import gspread
 from datetime import datetime
 
 # Authenticate using your service account JSON key
-gc = gspread.service_account(filename='your-key.json')
-sheet = gc.open("Your Sheet Name").sheet1  # or .worksheet("Tab name")
+gc = gspread.service_account(filename='optical-scarab-433916-c8-fd00f40a89cb.json')
+sheet = gc.open("Sample tracker for Python").sheet1  # or .worksheet("Tab name")
 
 # Streamlit form UI
 st.title("📋 Agent Tracker")
